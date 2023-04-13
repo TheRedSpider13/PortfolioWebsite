@@ -77,7 +77,11 @@ a:hover {
   float: right;
 }
 /* container 1 fluid layout */
-
+@media screen and (max-width 800px) {
+  .flex-item {
+    display: block;
+  }
+}
 .flex-item {
   box-sizing: border-box;
   border: 5px solid black;
@@ -139,6 +143,11 @@ a:hover {
   border: 2px solid black;
   margin: 12px;
 }
+@media screen and (max-width 800px) {
+  .boxy2 {
+    display: block;
+  }
+}
 .boxy2 {
   display: flex;
   justify-content: space-evenly;
@@ -150,7 +159,11 @@ a:hover {
   border: 2px solid black;
   margin: 12px;
 }
-
+@media screen and (max-width 800px) {
+  .zoom {
+    display: block;
+  }
+}
 .zoom {
   width: 500px;
   /* justify-content: left; */
@@ -287,5 +300,16 @@ td {
 @media screen and (max-width: 400px) {
   .list {
     padding: 8px;
+  }
+}
+
+@media screen and (max-width 800px) {
+  .flex-item {
+    display: block;
+  }
+}
+@media screen and (max-width 1000px) {
+  .backgroundimage {
+    display: block;
   }
 }
