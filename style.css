@@ -251,7 +251,7 @@ td {
 }
 .Lastpage {
   box-sizing: border-box;
-  border:10px;
+  border: 10px;
   height: 100x;
   width: 200px;
   padding-left: 100px;
@@ -267,24 +267,14 @@ td {
 
 /* Media quieres */
 
-@media screen and (max-width: 700px) {
-  .flex-container {
-    display: block;
+@media screen and (min-width: 400px) {
+  nav {
+    display: flex;
   }
-  @media screen and (min-width: 600px) {
-    h1 {
-      font-size: 60px;
-    }
+}
+
+@media screen and (max-width: 400px) {
+  .list {
+    padding: 8px;
   }
-  
-  @media screen and (min-width: 400px) {
-    nav {
-      display: flex;
-    }
-  }
-  
-  @media screen and (max-width: 400px) {
-    .list {
-      padding: 8px;
-    }
-  }
+}
