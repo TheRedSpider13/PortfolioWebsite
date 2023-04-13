@@ -266,6 +266,17 @@ td {
 }
 
 /* Media quieres */
+@media screen and (max-width 800px) {
+  .flex-container {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 60px;
+  }
+}
 
 @media screen and (min-width: 400px) {
   nav {
